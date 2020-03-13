@@ -1,0 +1,53 @@
+p {
+    color: green;
+    font-size: 30px;
+}
+
+body {
+    background-image: URL('imagens_site/banner.jpg');
+    background-position: 10px 30px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 450px 450px;
+}
+
+.color-page {
+    background-color: #ddd;
+}
+
+
+/* definir as propriedades da página clientes*/
+
+#clientes-code {
+    width: 75%;
+    position: relative;
+    float: left;
+}
+
+#clientes-code .config-clientes {
+    width: 40%;
+    border: 1px solid #b50909;
+    margin-left: 1.5%;
+    padding: 1%;
+    float: left;
+    margin-top: 30px;
+    backgroundcolor: #fff
+}
+
+#clientes-code .config-clientes img {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+#clientes-code .config-clientes p {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+#clientes-code .config-clientes p a {
+    color: #111;
+}
